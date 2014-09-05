@@ -24,15 +24,17 @@
       <!-- Begin MailChimp Signup Form -->
       <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
       <style type="text/css">
-        #mc_embed_signup{background:#fff; clear:left; display:inline-block; float:left; margin-left:0; margin-right:auto; width:100%; }
-        #mc_embed_signup .mc-field-group {width:20%; display:inline-block; margin-top:.6em; margin-right:.8em; padding-bottom:1em; }
-        #mc_embed_signup .mc-field-group-submit {display:inline-block; margin-top:auto; margin=bottom:auto; padding-right:.6em; padding-left:.6em; }
-        #mc_embed_signup .button {vertical-align:baseline;}
+        #mc_embed_signup{background:#fff; clear:left; display:inline-block; display:-moz-groupbox; float:left; margin-left:0; margin-right:auto; width:80%; }
+        #mc_embed_signup .mc-field-group {width:25%; display:inline-block; display:-moz-groupbox; margin-top:.6em; margin-right:.8em; padding-bottom:0; }
+        #mc_embed_signup .mc-field-group-submit {display:inline-block; display:-moz-groupbox; margin-top:auto; margin=bottom:auto; padding-right:.6em; padding-left:.6em; }
+        #mc_embed_signup .button {background:#c59b42;vertical-align:baseline;}
         /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
            We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
       </style>
+
       <div id="mc_embed_signup">
-      <form  style="padding:0;" action="//WomenEnough.us8.list-manage.com/subscribe/post?u=12e75866274e1809377ce4b1b&amp;id=0f0f7b0d1c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div style="width:100%; margin:0; padding-top:1em; background:#000;"><span style="color:#fff; font-size:15px; padding-left:1em;">Sign up to learn more about our community, commitment and campaign, plus, we'll send you a "My Dream for the Next Generation of Women" poster.</span></div>
+      <form  style="background:#000;" action="//WomenEnough.us8.list-manage.com/subscribe/post?u=12e75866274e1809377ce4b1b&amp;id=0f0f7b0d1c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 
       <div class="mc-field-group">
         <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email">

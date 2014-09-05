@@ -6,7 +6,7 @@ Description:  For theme cutomization please edit Simple T. Child theme;
 Template: simplet
 */
 @import url("../simplet/style.css");
-
+.header {	padding-top: 0;}
 h3 {
 	font-size: 1.8em;
 	color: #d2006f; !important
@@ -16,4 +16,5 @@ h3 {
 
 .site-logo {
 	 width: 250px;
+	 clear: left;
 }
