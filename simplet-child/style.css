@@ -1,0 +1,19 @@
+/*
+Theme Name: Simple T. Child theme
+Author: Anariel Design
+Author URI: http://www.anarieldesign.com/
+Description:  For theme cutomization please edit Simple T. Child theme;
+Template: simplet
+*/
+@import url("../simplet/style.css");
+
+h3 {
+	font-size: 1.8em;
+	color: #d2006f; !important
+	margin-bottom: 10px;
+	line-height:1.8em;
+}
+
+.site-logo {
+	 width: 250px;
+}
