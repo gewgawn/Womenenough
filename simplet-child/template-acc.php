@@ -25,7 +25,7 @@ if ($wpacc->have_posts()) : while ( $wpacc->have_posts() ) : $wpacc->the_post();
       </h4>
     </div>
     <div class="accordion-container">
-      <?php the_content();?>
+      <?php the_excerpt();?>
       <div class="clear"></div>
     </div>
     <?php
