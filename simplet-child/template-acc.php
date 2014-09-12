@@ -25,6 +25,13 @@ if ($wpacc->have_posts()) : while ( $wpacc->have_posts() ) : $wpacc->the_post();
       </h4>
     </div>
     <div class="accordion-container">
+      <a class="thumb" href="<?php the_permalink() ?>">
+        <?php
+      if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+        the_post_thumbnail( array( 'class' => 'accthumb' ) );
+      }
+         ?>
+        </a>
       <?php the_excerpt();?>
       <div class="clear"></div>
     </div>
