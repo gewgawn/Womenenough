@@ -25,6 +25,23 @@
 <div id="headerbox">
   <div class="container header">
     <header>
+      <div class="social-media-container">
+        <a href="https://www.facebook.com/womenenough" target="_blank" title="Women Enough" class="media-link">
+          <img src="http://www.rouxroamer.com/womenenough/wp-content/uploads/2014/09/facebookison.png" class="media-ico">
+        </a>
+        <a href="https://www.twitter.com/women_enough" target="_blank" title="Women Enough" class="media-link">
+          <img src="http://www.rouxroamer.com/womenenough/wp-content/uploads/2014/09/twittericon.png" class="media-ico">
+        </a>
+        <a href="http://www.pinterest.com/women_enough" target="_blank" title="Women Enough" class="media-link">
+          <img src="http://www.rouxroamer.com/womenenough/wp-content/uploads/2014/09/pinteresticon.png" class="media-ico">
+        </a>
+        <a href="http://www.youtube.com/" target="_blank" title="Women Enough" class="media-link">
+          <img src="http://www.rouxroamer.com/womenenough/wp-content/uploads/2014/09/youtubeicon.png" class="media-ico">
+        </a>
+        <a href="mailto:michelle@womenenough.com" target="_blank" title="michelle@womenenough.com" class="media-link">
+          <img src="http://www.rouxroamer.com/womenenough/wp-content/uploads/2014/09/mailicon.png" class="media-ico">
+        </a>
+      </div>
       <?php if ( get_theme_mod( 'anariel_logo' ) ) : ?>
       <div class="site-logo"> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo get_theme_mod( 'anariel_logo' ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"></a> </div>
       <?php else : ?>
