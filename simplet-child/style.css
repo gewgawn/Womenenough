@@ -18,3 +18,53 @@ h3 {
 	 width: 250px;
 	 clear: left;
 }
+
+/*===Mailchimp style rules===*/
+
+#mc_embed_signup {
+	background: transparent;
+	clear:left;
+	display:inline-block;
+	display:-moz-groupbox;
+	float:left;
+	margin-left:0;
+	margin-right:auto;
+	width:80%;
+}
+
+
+#mc_embed_signup .mc-field-group {
+	width:25% !important;
+	display:inline-block;
+	display:-moz-groupbox;
+	margin-top:.6em;
+	margin-right:.8em;
+	padding-bottom:0 !important;
+}
+
+#mc_embed_signup .mc-field-group-submit {
+	display:inline-block;
+	display:-moz-groupbox;
+	margin-top:auto;
+	margin=bottom:auto;
+	padding-right:.6em;
+	padding-left:.6em;
+}
+
+#mc_embed_signup .button {
+	background:#c59b42 !important;
+	vertical-align:baseline;
+}
+
+.mc-title {
+	width:100%;
+	margin:0;
+	padding-top:1em;
+	background:#000;
+}
+
+#mc-title-text {
+	color:#fff;
+	font-size:15px;
+	padding-left:1em;
+}
